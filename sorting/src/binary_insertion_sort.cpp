@@ -47,15 +47,3 @@ template<typename T> void binary_insertion_sort(T& arr) {
         currentI++;
     }
 }
-
-// int main() {
-
-//     array<int, 5> arr = {8, 6, 1, 5, 3};
-//     binary_insertion_sort(arr);
-
-//     for (int i = 0; i<5; i++) {
-//         cout << arr[i] << ", ";
-//     }
-
-//     return 0;
-// }
