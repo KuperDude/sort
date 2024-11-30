@@ -27,12 +27,3 @@ template<typename T> void quick_sort(T& arr, int low, int high) {
         quick_sort(arr, pi + 1, high);
     }
 }
-
-// int main() {
-//     array<int, 6> arr = {9, 8, 7, 6, 5, 4};
-// 	quick_sort(arr, 0, arr.size());
-//     for (int i = 0; i<6; i++) {
-//         cout << arr[i] << " ";
-//     }
-//     return 0;
-// }
